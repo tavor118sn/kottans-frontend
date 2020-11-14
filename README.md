@@ -5,7 +5,7 @@
 General
 - [x] [Git Basics](#Git-Basics)
 - [x] [Linux CLI, and HTTP](#Linux-CLI-and-HTTP)
-- [ ] Git Collaboration
+- [x] [Git Collaboration](#Git-Collaboration)
 
 Front-End Basics
 - [ ] Intro to HTML and CSS
@@ -42,3 +42,29 @@ REST API, to better understand where and how statuses and methods are used.
 - [Linux-Tutorial-Quiz-2](task_linux_cli/Linux-Tutorial-Quiz-2-Linux-Survival.png?raw=true)
 - [Linux-Tutorial-Quiz-3](task_linux_cli/Linux-Tutorial-Quiz-3-Linux-Survival.png?raw=true)
 - [Linux-Tutorial-Quiz-4](task_linux_cli/Linux-Tutorial-Quiz-4-Linux-Survival.png?raw=true)
+
+### Git Collaboration
+
+* **what was new:** working with forked repository
+```commandline
+git remote add upstream https://github.com/udacity/course-collaboration-travel-plans.git
+git fetch upstream master
+# merge in Lam's changes
+git merge upstream/master
+# send Lam's changes to *my* remote
+git push origin master
+```
+* **what was surprised:** -
+* **what intend to use in future:** squashing the commits
+```commandline
+git rebase -i HEAD~3
+```
+use p or pick – to keep the commit as is  
+use r or reword – to keep the commit's content but alter the commit message  
+use s or squash – to combine this commit's changes into the previous commit (the commit above it in the list)
+
+**Screenshots**
+
+- [GitHub-Collaboration-Udacity](task_git_collaboration/GitHub-Collaboration-Udacity.png?raw=true)
+- [Learn-Git-Branching](task_git_collaboration/Learn-Git-Branching.png?raw=true)
+
