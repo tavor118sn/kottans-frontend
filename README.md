@@ -8,7 +8,7 @@ General
 - [x] [Git Collaboration](#Git-Collaboration)
 
 Front-End Basics
-- [ ] Intro to HTML and CSS
+- [x] [Intro to HTML and CSS](#Intro-to-HTML-and-CSS)
 - [ ] Responsive Web Design
 - [ ] JavaScript Basics
 - [ ] Document Object Model
@@ -45,7 +45,7 @@ REST API, to better understand where and how statuses and methods are used.
 
 ### Git Collaboration
 
-* **what was new:** working with forked repository
+**what was new:** working with forked repository
 ```commandline
 git remote add upstream https://github.com/udacity/course-collaboration-travel-plans.git
 git fetch upstream master
@@ -54,8 +54,8 @@ git merge upstream/master
 # send Lam's changes to *my* remote
 git push origin master
 ```
-* **what was surprised:** -
-* **what intend to use in future:** squashing the commits
+**what was surprised:** -
+**what intend to use in future:** squashing the commits
 ```commandline
 git rebase -i HEAD~3
 ```
@@ -67,4 +67,39 @@ use s or squash – to combine this commit's changes into the previous commit (t
 
 - [GitHub-Collaboration-Udacity](task_git_collaboration/GitHub-Collaboration-Udacity.png?raw=true)
 - [Learn-Git-Branching](task_git_collaboration/Learn-Git-Branching.png?raw=true)
+
+## Front-End Basics
+
+### Intro to HTML and CSS
+
+**what was new:** 
+* some new tags from HTML5 
+    * `<nav>`
+    * `<header>`
+    * `<main>`
+    * `<footer>`
+    * `<section>`
+    * `<article>`
+    * `<figure>`
+    * `<figcaption>`
+    * `<small>`
+* `<datalist>` input
+* `grid` and `flex` CSS
+
+**what was surprised:** CSS transitions 
+  
+**what intend to use in future:** 
+* developer tools
+* new tags and CSS
+
+**Screenshots**
+- [Intro-to-HTML-and-CSS-Udacity](task_html_css_intro/Intro-to-HTML-and-CSS-Udacity.png?raw=true)
+- [Learn-HTML-Codecademy](task_html_css_intro/Learn-HTML-Codecademy.png?raw=true)
+- [Learn-CSS-Codecademy](task_html_css_intro/Learn-CSS-Codecademy.png?raw=true)
+
+
+**Useful links:**
+* [HTML Cheat Sheet](https://www.codecademy.com/learn/learn-html/modules/learn-html-elements/cheatsheet)
+* [CSS Cheat Sheet](https://www.codecademy.com/learn/learn-css/modules/learn-css-selectors-visual-rules/cheatsheet)
+
 
