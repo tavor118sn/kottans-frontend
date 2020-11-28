@@ -9,7 +9,7 @@ General
 
 Front-End Basics
 - [x] [Intro to HTML and CSS](#Intro-to-HTML-and-CSS)
-- [ ] Responsive Web Design
+- [x] [Responsive Web Design](#Responsive Web Design)
 - [ ] JavaScript Basics
 - [ ] Document Object Model
 
@@ -86,7 +86,8 @@ use s or squash – to combine this commit's changes into the previous commit (t
 * `<datalist>` input
 * `grid` and `flex` CSS
 
-**what was surprised:** CSS transitions 
+**what was surprised:** 
+* CSS transitions 
   
 **what intend to use in future:** 
 * developer tools
@@ -102,4 +103,45 @@ use s or squash – to combine this commit's changes into the previous commit (t
 * [HTML Cheat Sheet](https://www.codecademy.com/learn/learn-html/modules/learn-html-elements/cheatsheet)
 * [CSS Cheat Sheet](https://www.codecademy.com/learn/learn-css/modules/learn-css-selectors-visual-rules/cheatsheet)
 
+
+### Responsive Web Design
+
+**what was new:** 
+* viewport
+* media-queries
+* breakpoints
+
+
+
+**what was surprised:** 
+  
+  
+**what intend to use in future:** 
+* flex and media-queries
+
+
+**Screenshots**
+- [Responsive-Web-Design-Fundamentals-Udacity](task_responsive_web_design/Responsive-Web-Design-Fundamentals-Udacity.png?raw=true)
+- [Flexbox-Froggy](task_responsive_web_design/Flexbox-Froggy-Игра-для-изучения-CSS-Flexbox.png.png?raw=true)
+
+
+
+**Tips**
+* Width 100% is always relative and therefore responsive.
+```css
+img, embed, video {
+  max-width: 100%;
+}
+```
+* max-width actually overrides the width
+* 125 pixels is pretty much smaller than any device, 
+so logo 125 px will actually work well and be responsive.
+* Tap targets should be bigger than the average finger. 
+So, to ensure that all of your elements are at least that size, 
+add min-height: 48px; and min-width: 48px; to every tappable element.  
+height and width alone can be a little dangerous because 
+it won't allow the element to resize 
+if the content inside of it is bigger than the container.
+* 2 breakpoints for different width
+* 65 characters per line - optimal length
 
