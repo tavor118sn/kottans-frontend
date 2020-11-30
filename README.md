@@ -9,7 +9,8 @@ General
 
 Front-End Basics
 - [x] [Intro to HTML and CSS](#Intro-to-HTML-and-CSS)
-- [x] [Responsive Web Design](#Responsive Web Design)
+- [x] [Responsive Web Design](#Responsive-Web-Design)
+- [x] [HTML and CSS practice Hooli-style Popup](#HTML-and-CSS-practice-Hooli-style-Popup) (practice)
 - [ ] JavaScript Basics
 - [ ] Document Object Model
 
@@ -112,7 +113,6 @@ use s or squash – to combine this commit's changes into the previous commit (t
 * breakpoints
 
 
-
 **what was surprised:** 
   
   
@@ -144,4 +144,42 @@ it won't allow the element to resize
 if the content inside of it is bigger than the container.
 * 2 breakpoints for different width
 * 65 characters per line - optimal length
+
+
+### HTML and CSS practice Hooli-style Popup
+
+**Demo:**  
+https://tavor118sn.github.io/kottans-html-css-popup/
+
+**Repo:**  
+https://github.com/tavor118sn/kottans-html-css-popup
+
+
+**Tips**
+* Input can be placed in `<label>`
+```html
+<label class="check">
+  <input class="check__input" type="checkbox">
+</label>
+```
+* Visually hidden:
+```css
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0)
+}
+```
+
+
+**Useful links:**
+* [Custom Checkbox - Vadim Makeev](https://www.youtube.com/watch?v=E6kLaaQFctU&ab_channel=VadimMakeev)
+* [How to hide - htmlacademy](https://htmlacademy.ru/blog/boost/frontend/short-12)
+* [You Need to Stop Targeting Tags in CSS](https://frontstuff.io/you-need-to-stop-targeting-tags-in-css)
+
 
