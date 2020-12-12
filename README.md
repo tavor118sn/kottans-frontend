@@ -1,4 +1,6 @@
 # kottans-frontend
+[Study Plan](https://github.com/kottans/frontend/blob/master/contents.md#stage-0-self-study)
+
 
 **Completed tasks:**
 
@@ -11,7 +13,7 @@ Front-End Basics
 - [x] [Intro to HTML and CSS](#Intro-to-HTML-and-CSS)
 - [x] [Responsive Web Design](#Responsive-Web-Design)
 - [x] [HTML and CSS practice Hooli-style Popup](#HTML-and-CSS-practice-Hooli-style-Popup) (practice)
-- [ ] JavaScript Basics
+- [x] [JavaScript Basics](#JavaScript-Basics)
 - [ ] Document Object Model
 
 Advanced Topics
@@ -181,5 +183,212 @@ https://github.com/tavor118sn/kottans-html-css-popup
 * [Custom Checkbox - Vadim Makeev](https://www.youtube.com/watch?v=E6kLaaQFctU&ab_channel=VadimMakeev)
 * [How to hide - htmlacademy](https://htmlacademy.ru/blog/boost/frontend/short-12)
 * [You Need to Stop Targeting Tags in CSS](https://frontstuff.io/you-need-to-stop-targeting-tags-in-css)
+
+
+### JavaScript Basics
+
+**what was new:** 
+* Anonymous Function expression, Named function expressions  
+(when a function is assigned to a variable),  
+and Function declaration.
+* A function that is passed into another function is called a callback.
+* for loop, forEach() and map() to loop through an array
+
+**Tips**
+* JavaScript provides eight different data types which are 
+undefined, null, boolean, string, symbol, bigint, number, and object.
+* `contacts.hasOwnProperty(prop)` => `prop in contacts`
+* ES6
+    * Arrow Functions 
+    ```javascript
+    const myFunc = () => "value";
+    const doubler = (item) => item * 2;
+    const multiplier = item => item * 2;
+    ```
+    * Rest Parameter `function howMany(...args)`
+    
+    * Spread Operator to Evaluate Arrays In-Place
+    ```javascript
+    const maximus = Math.max(...arr);
+    let thatArray = ['basil', 'cilantro', ...thisArray, 'coriander'];
+    ```
+    
+    * Destructuring Assignment to Extract Values from Objects and Arrays
+    ```javascript
+    const user = { name: 'John Doe', age: 34 };
+    const { name, age } = user;
+    const { name: userName, age: userAge } = user;  
+    
+    const [a, b,,, c] = [1, 2, 3, 4, 5, 6];
+    const [a, b, ...arr] = [1, 2, 3, 4, 5, 7];
+  
+    const ratings = watchList.map(({ Title: title, imdbRating: rating }) => ({title, rating}));
+    ```
+    
+    * Destructuring Assignment to Pass an Object as a Function's Parameters
+    ```javascript
+    const profileUpdate = ({ name, age, nationality, location }) => {
+      /* do something with these fields */
+    }
+    ```
+    
+    * Create Strings using Template Literals
+    ```javascript
+    const greeting = `Hello, my name is ${person.name}!
+    I am ${person.age} years old.`;
+    ```
+    
+    * Object Literal Declarations Using Object Property Shorthand
+    ```javascript
+    const getMousePosition = (x, y) => ({ x, y });
+    ```
+    
+    * Declarative Functions
+    ```javascript
+    const person = {
+      name: "Taylor",
+      sayHello() {
+        return `Hello! My name is ${this.name}.`;
+      }
+    };
+    ```
+    
+    * Constructor Function
+    ```javascript
+    class SpaceShuttle {
+      constructor(targetPlanet) {
+        this.targetPlanet = targetPlanet;
+      }
+    }
+    const zeus = new SpaceShuttle('Jupiter');
+    ```
+    
+    * getters and setters to Control Access to an Object
+    ```javascript
+    class Book {
+      constructor(author) {
+        this._author = author;
+      }
+      // getter
+      get writer() {
+        return this._author;
+      }
+      // setter
+      set writer(updatedAuthor) {
+        this._author = updatedAuthor;
+      }
+    }
+    const novel = new Book('anonymous');
+    console.log(novel.writer);  // anonymous
+    novel.writer = 'newAuthor';
+    console.log(novel.writer);  // newAuthor
+    ```
+    
+* Array functions
+    * `every`
+    ```javascript
+    function isEveryoneHere(obj) {
+      return ["Alan", "Ryan"].every(name => obj.hasOwnProperty(name));
+    }
+    ```
+    
+    * some
+    ```javascript
+    arr.some(elem => elem > 0);
+    ```
+    
+    * `filter`
+    ```javascript
+    const millionPlusCities = cities.filter(function (e) {
+      return e.population > 1000000;
+    });
+    var millionPlusCities = cities.filter(e => e.population > 1000000);
+  
+    const divisibleByThrreeES6 = array.filter(v => v % 3 === 0);
+
+    Array.prototype.forEach(element => (callback(element) && newArray.push(element)));
+    ```
+    
+    * reduce
+     ```javascript
+    const users = [
+      { name: 'John', age: 34 },
+      { name: 'Amy', age: 20 },
+      { name: 'camperCat', age: 10 }
+    ];
+    
+    const sumOfAges = users.reduce((sum, user) => sum + user.age, 0);
+    console.log(sumOfAges); // 64
+    ```   
+    
+    * includes
+    ```javascript
+    const array1 = [1, 2, 3];
+    console.log(array1.includes(2));
+  
+    const destroyer = (arr, ...valsToRemove) => arr.filter(elem => !valsToRemove.includes(elem));
+    ``` 
+    
+    * sort numeric array
+    ```javascript
+    numArray.sort((a, b) => a - b); // For ascending sort
+    numArray.sort((a, b) => b - a); // For descending sort  
+    ```
+    
+    
+* Objects
+    * for ... in
+    ```javascript
+    let result = 0;
+    for (let user in usersObj) {
+    if (usersObj[user].online === true) {
+      result++;
+      }
+    }
+    ```
+    
+    * `Object.keys(obj)`
+    * `hasOwnProperty`
+
+* String
+    * `string.repeat(count)`
+    * `string.endsWith(searchvalue, length)`
+    * `string.slice(start, end)`
+
+    * Reverse string
+    ```javascript
+    function reverseString(str) {
+      return str
+        .split("")
+        .reverse()
+        .join("");
+    }
+    ```
+    
+    * Longest word
+    ```javascript
+    function findLongestWordLength(str) {
+      return Math.max(...str.split(" ").map(word => word.length));
+    }
+    ```
+    
+    * To Uppercase
+    ```javascript
+    function titleCase(str) {
+      var convertToArray = str.toLowerCase().split(" ");
+      var result = convertToArray.map(function(val) {
+        return val.replace(val.charAt(0), val.charAt(0).toUpperCase());
+      });
+      return result.join(" ");
+    }    
+    ```
+
+
+
+**Screenshots**
+- [Intro-to-JavaScript-Udacity](task_js_basics/Intro-to-JavaScript-Udacity.png?raw=true)
+- [JavaScript-freeCodeCamp](task_js_basics/Learn-to-code-at-home-freeCodeCamp-org.png?raw=true)
+
+
 
 
