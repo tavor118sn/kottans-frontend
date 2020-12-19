@@ -18,7 +18,7 @@ Front-End Basics
 - [ ] [Document Object Model Practice](#Document-Object-Model-Practice)
 
 Advanced Topics
-- [ ] Building a Tiny JS World
+- [ ] [Building a Tiny JS World](#Building-a-Tiny-JS-World)
 - [ ] Object oriented JS
 - [ ] OOP exercise
 
@@ -543,4 +543,24 @@ document.getElementById("comments").style.display = "block";
 - [JavaScript-and-the-DOM-Udacity](task_js_dom/JavaScript-and-the-DOM-Udacity.png?raw=true)
 - [freeCodeCamp](task_js_dom/Learn-to-code-at-home-freeCodeCamp-org.png?raw=true)
 
+
 ### Document Object Model Practice
+
+* [Demo](https://tavor118sn.github.io/kottans-JS-DOM/)
+* [Code Base](https://github.com/tavor118sn/kottans-JS-DOM)
+* [PR](https://github.com/kottans/frontend-2021-homeworks/pull/302)
+
+
+### Building a Tiny JS World
+#### JS pre OOP
+
+* [Demo](https://tavor118sn.github.io/a-tiny-JS-world/)
+* [Code Base](https://github.com/tavor118sn/a-tiny-JS-world)
+* [PR](https://github.com/kottans/frontend-2021-homeworks/pull/310)
+
+
+
+
+
+
+
