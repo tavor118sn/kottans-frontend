@@ -15,11 +15,11 @@ Front-End Basics
 - [x] [HTML and CSS practice Hooli-style Popup](#HTML-and-CSS-practice-Hooli-style-Popup) (practice)
 - [x] [JavaScript Basics](#JavaScript-Basics)
 - [x] [Document Object Model](#Document-Object-Model)
-- [ ] [Document Object Model Practice](#Document-Object-Model-Practice)
+- [x] [Document Object Model Practice](#Document-Object-Model-Practice)
 
 Advanced Topics
-- [ ] [Building a Tiny JS World](#Building-a-Tiny-JS-World)
-- [ ] Object oriented JS
+- [x] [Building a Tiny JS World](#Building-a-Tiny-JS-World)
+- [ ] [Object oriented JS](#Object-oriented-JS)
 - [ ] OOP exercise
 
 
@@ -559,6 +559,46 @@ document.getElementById("comments").style.display = "block";
 * [PR](https://github.com/kottans/frontend-2021-homeworks/pull/310)
 
 
+### Object oriented JS
+
+Codewars profile: https://www.codewars.com/users/tavor118
+
+
+#### Frogger game
+* [Demo](https://tavor118sn.github.io/frontend-nanodegree-arcade-game/)
+* [Code Base](https://github.com/tavor118sn/frontend-nanodegree-arcade-game)
+* [PR](https://github.com/kottans/frontend-2021-homeworks/pull/341)
+
+**Frogger links**:
+* [Frogger Task](https://classroom.udacity.com/courses/ud015/lessons/3072058665/concepts/30962186380923)
+* [Kottans: frogger game. Part 1: "how to get started"](https://www.youtube.com/watch?v=qf0C7vWcsSk)
+
+**Interesting kata solutions**:
+
+* Replace With Alphabet Position
+```javascript
+function alphabetPosition(text) {
+  return text
+    .toUpperCase()
+    .match(/[a-z]/gi)
+    .map( (c) => c.charCodeAt() - 64)
+    .join(' ');
+}
+```
+
+* Persistent Bugger.
+```javascript
+function persistence(num) {
+   for (var i = 0; num > 9; i++) {
+     num = num.toString().split('').reduce((t, c) => c * t);
+   }
+   return i;
+}
+```
+
+**Screenshots**
+- [Object-Oriented-JavaScript-Udacity](task_js_oop/Object-Oriented-JavaScript-Udacity.png?raw=true)
+- [Codewars-Profile](task_js_oop/tavor118-Codewars.png?raw=true)
 
 
 
