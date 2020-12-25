@@ -558,6 +558,11 @@ document.getElementById("comments").style.display = "block";
 * [Code Base](https://github.com/tavor118sn/a-tiny-JS-world)
 * [PR](https://github.com/kottans/frontend-2021-homeworks/pull/310)
 
+#### JS post OOP
+
+* [Demo](https://tavor118sn.github.io/a-tiny-JS-world/)
+* [Code Base](https://github.com/tavor118sn/a-tiny-JS-world)
+* [PR](https://github.com/kottans/frontend-2021-homeworks/pull/352)
 
 ### Object oriented JS
 
