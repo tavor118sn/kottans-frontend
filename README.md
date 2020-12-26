@@ -20,7 +20,9 @@ Front-End Basics
 Advanced Topics
 - [x] [Building a Tiny JS World](#Building-a-Tiny-JS-World)
 - [ ] [Object oriented JS](#Object-oriented-JS)
-- [ ] OOP exercise
+- [ ] [OOP exercise](#JS-post-OOP)
+- [x] [Offline Web Applications](#Offline-Web-Applications)
+
 
 
 ## General
@@ -605,6 +607,11 @@ function persistence(num) {
 - [Object-Oriented-JavaScript-Udacity](task_js_oop/Object-Oriented-JavaScript-Udacity.png?raw=true)
 - [Codewars-Profile](task_js_oop/tavor118-Codewars.png?raw=true)
 
+
+### Offline Web Applications
+
+**Screenshots**
+- [Object-Oriented-JavaScript-Udacity](task_offline_web_app/Offline-Web-Applications-Udacity.png?raw=true)
 
 
 
