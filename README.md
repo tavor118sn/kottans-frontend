@@ -5,35 +5,37 @@
 **Completed tasks:**
 
 General
-- [x] [Git Basics](#Git-Basics)
-- [x] [Linux CLI, and HTTP](#Linux-CLI-and-HTTP)
-- [x] [Git Collaboration](#Git-Collaboration)
+- [x] [0. Git Basics](#0-Git-Basics)
+- [x] [1. Linux CLI, and HTTP](#1-Linux-CLI-and-HTTP)
+- [x] [2. Git Collaboration](#2-Git-Collaboration)
 
 Front-End Basics
-- [x] [Intro to HTML and CSS](#Intro-to-HTML-and-CSS)
-- [x] [Responsive Web Design](#Responsive-Web-Design)
-- [x] [HTML and CSS practice Hooli-style Popup](#HTML-and-CSS-practice-Hooli-style-Popup) (practice)
-- [x] [JavaScript Basics](#JavaScript-Basics)
-- [x] [Document Object Model](#Document-Object-Model)
-- [x] [Document Object Model Practice](#Document-Object-Model-Practice)
+- [x] [3. Intro to HTML and CSS](#3-Intro-to-HTML-and-CSS)
+- [x] [4. Responsive Web Design](#4-Responsive-Web-Design)
+- [x] [5. HTML and CSS practice Hooli-style Popup](#5-HTML-and-CSS-practice-Hooli-style-Popup) (practice)
+- [x] [6. JavaScript Basics](#6-JavaScript-Basics)
+- [x] [7. Document Object Model](#7-Document-Object-Model)
+- [x] [7. Document Object Model Practice](#7-Document-Object-Model-Practice)
 
 Advanced Topics
-- [x] [Building a Tiny JS World](#Building-a-Tiny-JS-World)
-- [ ] [Object oriented JS](#Object-oriented-JS)
-- [ ] [OOP exercise](#JS-post-OOP)
-- [x] [Offline Web Applications](#Offline-Web-Applications)
-
+- [x] [8. Building a Tiny JS World](#8-Building-a-Tiny-JS-World)
+- [x] [9. Object oriented JS](#9-Object-oriented-JS)
+- [x] [10. OOP exercise](#10-JS-post-OOP)
+- [x] [11. Offline Web Applications](#11-Offline-Web-Applications)
+- [ ] [12. Memory pair game](#12-Memory-pair-game)
+- [ ] [13. Website Performance Optimization](#13-Website-Performance-Optimization)
+- [ ] [14. Friends App](#14-Friends-App)
 
 
 ## General
 
-### Git Basics 
+### 0. Git Basics 
 
 It was good to refresh the knowledge about git and different git commands.
 git rebase definitely helps to keep git history clearer.
 
 
-### Linux CLI and HTTP
+### 1. Linux CLI and HTTP
 
 I liked site about Linux because you can read theory and practice after that.
 It has a good explanation about base commands, permissions, etc.
@@ -49,7 +51,8 @@ REST API, to better understand where and how statuses and methods are used.
 - [Linux-Tutorial-Quiz-3](task_linux_cli/Linux-Tutorial-Quiz-3-Linux-Survival.png?raw=true)
 - [Linux-Tutorial-Quiz-4](task_linux_cli/Linux-Tutorial-Quiz-4-Linux-Survival.png?raw=true)
 
-### Git Collaboration
+
+### 2. Git Collaboration
 
 **what was new:** working with forked repository
 ```commandline
@@ -74,9 +77,11 @@ use s or squash – to combine this commit's changes into the previous commit (t
 - [GitHub-Collaboration-Udacity](task_git_collaboration/GitHub-Collaboration-Udacity.png?raw=true)
 - [Learn-Git-Branching](task_git_collaboration/Learn-Git-Branching.png?raw=true)
 
+
 ## Front-End Basics
 
-### Intro to HTML and CSS
+
+### 3. Intro to HTML and CSS
 
 **what was new:** 
 * some new tags from HTML5 
@@ -110,7 +115,7 @@ use s or squash – to combine this commit's changes into the previous commit (t
 * [CSS Cheat Sheet](https://www.codecademy.com/learn/learn-css/modules/learn-css-selectors-visual-rules/cheatsheet)
 
 
-### Responsive Web Design
+### 4. Responsive Web Design
 
 **what was new:** 
 * viewport
@@ -151,7 +156,7 @@ if the content inside of it is bigger than the container.
 * 65 characters per line - optimal length
 
 
-### HTML and CSS practice Hooli-style Popup
+### 5. HTML and CSS practice Hooli-style Popup
 
 **Demo:**  
 https://tavor118sn.github.io/kottans-html-css-popup/
@@ -188,7 +193,7 @@ https://github.com/tavor118sn/kottans-html-css-popup
 * [You Need to Stop Targeting Tags in CSS](https://frontstuff.io/you-need-to-stop-targeting-tags-in-css)
 
 
-### JavaScript Basics
+### 6. JavaScript Basics
 
 **what was new:** 
 * Anonymous Function expression, Named function expressions  
@@ -389,7 +394,7 @@ undefined, null, boolean, string, symbol, bigint, number, and object.
 - [Intro-to-JavaScript-Udacity](task_js_basics/Intro-to-JavaScript-Udacity.png?raw=true)
 - [JavaScript-freeCodeCamp](task_js_basics/Learn-to-code-at-home-freeCodeCamp-org.png?raw=true)
 
-### Document Object Model
+### 7. Document Object Model
 
 #### DOM
 
@@ -546,27 +551,29 @@ document.getElementById("comments").style.display = "block";
 - [freeCodeCamp](task_js_dom/Learn-to-code-at-home-freeCodeCamp-org.png?raw=true)
 
 
-### Document Object Model Practice
+### 7. Document Object Model Practice
 
 * [Demo](https://tavor118sn.github.io/kottans-JS-DOM/)
 * [Code Base](https://github.com/tavor118sn/kottans-JS-DOM)
 * [PR](https://github.com/kottans/frontend-2021-homeworks/pull/302)
 
 
-### Building a Tiny JS World
+### 8. Building a Tiny JS World
 #### JS pre OOP
 
 * [Demo](https://tavor118sn.github.io/a-tiny-JS-world/)
 * [Code Base](https://github.com/tavor118sn/a-tiny-JS-world)
 * [PR](https://github.com/kottans/frontend-2021-homeworks/pull/310)
 
-#### JS post OOP
+
+#### 10. JS post OOP
 
 * [Demo](https://tavor118sn.github.io/a-tiny-JS-world/)
 * [Code Base](https://github.com/tavor118sn/a-tiny-JS-world)
 * [PR](https://github.com/kottans/frontend-2021-homeworks/pull/352)
 
-### Object oriented JS
+
+### 9. Object oriented JS
 
 Codewars profile: https://www.codewars.com/users/tavor118
 
@@ -608,11 +615,21 @@ function persistence(num) {
 - [Codewars-Profile](task_js_oop/tavor118-Codewars.png?raw=true)
 
 
-### Offline Web Applications
+### 11. Offline Web Applications
 
 **Screenshots**
 - [Object-Oriented-JavaScript-Udacity](task_offline_web_app/Offline-Web-Applications-Udacity.png?raw=true)
 
 
+### 12. Memory pair game
 
+* [Demo](https://tavor118sn.github.io/kottans-memory-pair-game/)
+* [Code Base](https://github.com/tavor118sn/kottans-memory-pair-game)
+* [PR](https://github.com/kottans/frontend-2021-homeworks/pull/383)
+
+
+### 13. Website Performance Optimization
+
+
+### 14. Friends App
 
