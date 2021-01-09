@@ -22,7 +22,7 @@ Advanced Topics
 - [x] [9. Object oriented JS](#9-Object-oriented-JS)
 - [x] [10. OOP exercise](#10-JS-post-OOP)
 - [x] [11. Offline Web Applications](#11-Offline-Web-Applications)
-- [ ] [12. Memory pair game](#12-Memory-pair-game)
+- [x] [12. Memory pair game](#12-Memory-pair-game)
 - [ ] [13. Website Performance Optimization](#13-Website-Performance-Optimization)
 - [ ] [14. Friends App](#14-Friends-App)
 
@@ -627,9 +627,24 @@ function persistence(num) {
 * [Code Base](https://github.com/tavor118sn/kottans-memory-pair-game)
 * [PR](https://github.com/kottans/frontend-2021-homeworks/pull/383)
 
+**Useful links:**
+* [How to Use CSS Grid for Sticky Headers and Footers](How to Use CSS Grid for Sticky Headers and Footers)
+* [Shuffle Array](https://css-tricks.com/snippets/javascript/shuffle-array/)
+* [How To Create a Flip Card](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_flip_card)
+
 
 ### 13. Website Performance Optimization
 
 
 ### 14. Friends App
+
+* [Demo](https://tavor118sn.github.io/kottans-friends-app/)
+* [Code Base](https://github.com/tavor118sn/kottans-friends-app)
+* [PR](https://github.com/kottans/frontend-2021-homeworks/pull/425)
+
+**Useful links:**
+* [Building a Dynamic Filter with ES6 JavaScript](https://medium.com/@tylerburdsall/building-a-dynamic-filter-with-es6-javascript-71dfeb50c371)
+* [Async/await](https://learn.javascript.ru/async-await)
+* [Поразительный CSS Grid Area](https://medium.com/@stasonmars/%D0%BF%D0%BE%D1%80%D0%B0%D0%B7%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B8%CC%86-css-grid-area-9728b622d528)
+* [Realizing common layouts using CSS Grid Layout](https://developer.mozilla.org/ru/docs/Web/CSS/CSS_Grid_Layout/Realizing_common_layouts_using_CSS_Grid_Layout)
 
